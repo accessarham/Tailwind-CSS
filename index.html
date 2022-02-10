@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="public/style.css" />
+    <title>Home</title>
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="scroll-auto">
+    <header class="w-full h-[47.5rem] bg-tint pt-7">
+      <div class="container flex items-center justify-between px-4 mx-auto">
+        <div class="flex items-center justify-center">
+          <div class="pr-2 text-white md:hidden menuBtn">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </div>
+
+          <img src="src/assets/logo.svg" alt="logo" />
+        </div>
+
+        <!-- Desktop menu links -->
+        <div class="flex items-center justify-center">
+          <div class="hidden text-white md:flex">
+            <div class="pr-5 font-normal">Home</div>
+            <div class="pr-5 font-normal">About us</div>
+            <div class="pr-5 font-normal">Features</div>
+            <div class="pr-5 font-normal">Pricing</div>
+            <div class="pr-5 font-normal">FAQ</div>
+            <div class="pr-5 font-normal">Blog</div>
+          </div>
+
+          <button
+            type="button"
+            class="px-6 py-1 text-white border-white rounded-full outline outline-2 lg:h-14 lg:w-44"
+          >
+            Contact us
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile menu links -->
+      <div
+        class="flex-col items-center justify-center hidden w-auto m-5 bg-white rounded-md h-3/4 navLinks"
+      >
+        <div class="mb-4 text-2xl font-medium">Home</div>
+        <div class="mb-4 text-2xl font-medium">About us</div>
+        <div class="mb-4 text-2xl font-medium">Features</div>
+        <div class="mb-4 text-2xl font-medium">Pricing</div>
+        <div class="mb-4 text-2xl font-medium">FAQ</div>
+        <div class="text-2xl font-medium">Blog</div>
+      </div>
+
+      <!-- Background header content -->
+      <div
+        class="container mx-auto px-4 flex flex-col justify-center items-center lg:flex-row lg:justify-between lg:items-center lg:mt-[100px]"
+      >
+        <div class="text-center">
+          <h1
+            class="text-white font-poppins font-semibold text-4xl max-w-[600px] mx-auto md:text-5xl mt-20 lg:text-left"
+          >
+            Building stellar websites for early startups.
+          </h1>
+          <p
+            class="mt-6 text-white max-w-[500px] md:mx-auto md:text-xl lg:text-left lg:ml-0"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt.
+          </p>
+          <div class="flex items-center justify-center mt-6 lg:justify-start">
+            <button
+              type="button"
+              class="px-6 py-3 rounded-full bg-yellow lg:h-14 lg:w-44 lg:font-semibold"
+            >
+              View our work
+            </button>
+            <button type="button" class="flex px-6 py-3 text-white">
+              <span class="mr-2">View Pricing</span>
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="text-center">
+          <img src="src/assets/bg.svg" alt="hero" class="mt-[48px]" />
+        </div>
+      </div>
+    </header>
+
+    <main
+      class="bg-accent w-full min-h-[600px] lg:flex lg:justify-between lg:items-center"
+    >
+      <div class="container px-4 pb-12 mx-auto">
+        <div class="lg:flex lg:justify-between lg:items-start">
+          <div class="text-center lg:text-left">
+            <h2 class="pt-12 text-4xl font-semibold font-poppins">
+              How we work
+            </h2>
+            <p
+              class="font-poppins md:text-xl pt-4 md:max-w-[400px] mx-auto lg:mx-0"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+            <button
+              type="button"
+              class="flex pt-4 mx-auto text-blue lg:m-0 md:text-xl md:justify-center md:items-center"
+            >
+              <span class="mr-2">Get in touch with us</span>
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                ></path>
+              </svg>
+            </button>
+          </div>
+
+          <div>
+            <div class="md:flex md:justify-evenly md:items-center">
+              <div class="text-center lg:text-left">
+                <div class="pt-8">
+                  <img
+                    src="src/assets/1.png"
+                    alt="1"
+                    class="mx-auto lg:mx-0"
+                  />
+                  <h2 class="pt-4 text-4xl font-medium font-poppins">
+                    Strategy
+                  </h2>
+                  <p class="pt-4 md:max-w-[300px] md:mx-auto">
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam.
+                  </p>
+                </div>
+              </div>
+
+              <div class="text-center lg:text-left">
+                <div class="pt-8">
+                  <img
+                    src="src/assets/2.png"
+                    alt="1"
+                    class="mx-auto lg:mx-0"
+                  />
+                  <h2 class="pt-4 text-4xl font-medium font-poppins">
+                    Wireframing
+                  </h2>
+                  <p class="pt-4 md:max-w-[300px] md:mx-auto">
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="md:flex md:justify-evenly md:items-center">
+              <div class="text-center lg:text-left">
+                <div class="pt-8">
+                  <img
+                    src="src/assets/3.png"
+                    alt="1"
+                    class="mx-auto lg:mx-0"
+                  />
+                  <h2 class="pt-4 text-4xl font-medium font-poppins">Design</h2>
+                  <p class="pt-4 md:max-w-[300px] md:mx-auto">
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam.
+                  </p>
+                </div>
+              </div>
+
+              <div class="text-center lg:text-left">
+                <div class="pt-8">
+                  <img
+                    src="src/assets/4.png"
+                    alt="1"
+                    class="mx-auto lg:mx-0"
+                  />
+                  <h2 class="pt-4 text-4xl font-medium font-poppins">
+                    Development
+                  </h2>
+                  <p class="pt-4 md:max-w-[300px] md:mx-auto">
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Our latest projects -->
+    <section
+      class="max-w-[90%] mx-auto min-h-[700px] px-4 py-16 flex flex-col justify-evenly"
+    >
+      <div class="flex items-center justify-between mb-10">
+        <h1 class="text-xl font-semibold text-tint lg:text-4xl font-poppins">
+          View our projects
+        </h1>
+        <button
+          type="button"
+          class="flex items-center justify-center text-lg text-tint"
+        >
+          <span class="mr-2">View more</span>
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M17 8l4 4m0 0l-4 4m4-4H3"
+            ></path>
+          </svg>
+        </button>
+      </div>
+
+      <div
+        class="grid grid-cols-1 grid-rows-3 gap-4 md:grid-cols-2 md:grid-row-1 lg:grid-cols-3 lg:grid-rows-2"
+      >
+        <div
+          class="col-span-1 row-span-1 md:col-span-2 md:row-span-2 lg:row-span-2 lg:col-span-2 border-[1px] border-gray-400"
+        >
+          <div class="relative w-full h-full">
+            <div
+              class="absolute flex flex-col justify-center w-full h-full overflow-hidden bg-tint md:w-1/2 lg:w-1/2 bg-opacity-80 md:justify-end"
+            >
+              <div class="px-12 mb-4">
+                <h1 class="text-2xl font-semibold text-white font-poppins">
+                  Workhub office Webflow Webflow Design.
+                </h1>
+              </div>
+              <div class="px-12 mb-4">
+                <p class="text-base font-medium text-white font-poppins">
+                  Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                  aliquam
+                </p>
+              </div>
+              <div class="px-12 md:mb-14">
+                <button type="button" class="flex text-lg text-yellow">
+                  <span class="mr-2">View project</span>
+                  <svg
+                    class="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <img src="src/assets/bg1.png" class="w-full h-full" alt="bg" />
+          </div>
+        </div>
+
+        <div class="col-span-1 row-span-1 border-[1px] border-gray-400">
+          <div class="relative w-full h-full">
+            <div
+              class="absolute flex flex-col justify-center w-full h-full bg-tint bg-opacity-80 md:justify-end"
+            >
+              <div class="px-12 mb-4">
+                <h1 class="text-2xl font-semibold text-white font-poppins">
+                  Unisaas Website Design
+                </h1>
+              </div>
+              <div class="px-12 md:mb-8">
+                <button type="button" class="flex text-lg text-yellow">
+                  <span class="mr-2">View portfolio</span>
+                  <svg
+                    class="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <img src="src/assets/bg2.png" class="w-full h-full" alt="bg" />
+          </div>
+        </div>
+
+        <div class="col-span-1 row-span-1 border-[1px] border-gray-400">
+          <div class="w-full h-full">
+            <img src="src/assets/bg3.png" class="w-full h-full" alt="bg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features section -->
+    <section class="min-h-[1000px] flex flex-col justify-center bg-grey">
+      <div class="w-[92%] mx-auto py-12">
+        <div class="max-w-md mx-auto text-center md:max-w-lg lg:max-w-xl">
+          <h5 class="text-base font-medium font-poppins text-tint">Features</h5>
+          <h1
+            class="pt-3 text-2xl font-semibold lg:text-5xl md:text-4xl font-poppins text-tint"
+          >
+            Designs that solve problems, one product at a time
+          </h1>
+        </div>
+
+        <div
+          class="grid gap-4 pt-12 md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2"
+        >
+          <div class="flex flex-col p-12 bg-white justify-evenly">
+            <div class="text-blue">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-8 h-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                />
+              </svg>
+            </div>
+            <h1 class="pt-6 text-2xl font-semibold font-poppins">
+              Uses Client First
+            </h1>
+            <p class="pt-3 text-base font-normal font-poppins">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+              aliquam sed mi.
+            </p>
+          </div>
+
+          <div class="flex flex-col p-12 bg-white justify-evenly">
+            <div class="text-blue">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-8 h-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+            <h1 class="pt-6 text-2xl font-semibold font-poppins">
+              Two Free Revision Round
+            </h1>
+            <p class="pt-3 text-base font-normal font-poppins">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+              aliquam sed mi.
+            </p>
+          </div>
+
+          <div class="flex flex-col p-12 bg-white justify-evenly">
+            <div class="text-blue">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-8 h-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                />
+              </svg>
+            </div>
+            <h1 class="pt-6 text-2xl font-semibold font-poppins">
+              Template Customization
+            </h1>
+            <p class="pt-3 text-base font-normal font-poppins">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+              aliquam sed mi.
+            </p>
+          </div>
+
+          <div class="flex flex-col p-12 bg-white justify-evenly">
+            <div class="text-blue">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-8 h-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+            <h1 class="pt-6 text-2xl font-semibold font-poppins">
+              24/7 Support
+            </h1>
+            <p class="pt-3 text-base font-normal font-poppins">
+              E/uismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+              aliquam sed mi.
+            </p>
+          </div>
+
+          <div class="flex flex-col p-12 bg-white justify-evenly">
+            <div class="text-blue">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-8 h-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+            <h1 class="pt-6 text-2xl font-semibold font-poppins">
+              Quick Delivery
+            </h1>
+            <p class="pt-3 text-base font-normal font-poppins">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+              aliquam sed mi.
+            </p>
+          </div>
+
+          <div class="flex flex-col p-12 bg-white justify-evenly">
+            <div class="text-blue">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-8 h-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+                />
+              </svg>
+            </div>
+            <h1 class="pt-6 text-2xl font-semibold font-poppins">
+              Hands-on approach
+            </h1>
+            <p class="pt-3 text-base font-normal font-poppins">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+              aliquam sed mi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials slider -->
+    <section
+      class="min-h-[500px] flex flex-col justify-center bg-accent w-full"
+    >
+      <div
+        class="w-[92%] max-h-[2000px] mx-auto flex flex-col md:flex-row md:justify-start md:items-start"
+      >
+        <div class="pb-8 text-center md:text-left md:pb-0 md:w-2/6 md:px-4">
+          <h1 class="text-3xl font-semibold lg:text-4xl text-tint font-poppins">
+            What our clients say about us
+          </h1>
+          <p class="pt-3 text-base font-normal text-tint font-poppins">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
+          </p>
+        </div>
+
+        <div class="text-center md:text-left md:w-2/3 md:px-4">
+          <h1
+            class="text-xl font-medium md:text-2xl lg:text-4xl font-poppins text-tint"
+          >
+            "The best agency we’ve worked with so far. They understand our
+            product and are able to add new features with a great focus."
+          </h1>
+          <div class="flex justify-between mt-12">
+            <div class="flex">
+              <img
+                src="src/assets/profile.png"
+                class="mr-4 rounded-full"
+                alt="profile"
+              />
+              <div class="flex flex-col justify-evenly">
+                <h1 class="text-lg font-semibold font-poppins text-tint">
+                  Jenny Wilson
+                </h1>
+                <p class="text-xs font-normal font-poppins text-tint">
+                  Vice President
+                </p>
+              </div>
+            </div>
+            <div class="flex">
+              <div>
+                <svg
+                  class="w-10 h-10 p-2 border-2 rounded-full text-tint border-tint"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"
+                  ></path>
+                </svg>
+              </div>
+              <div class="ml-1">
+                <svg
+                  class="w-10 h-10 p-2 text-white border-2 rounded-full bg-tint border-tint"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact us -->
+    <section
+      class="min-h-[600px] bg-white w-full flex flex-col justify-center py-12"
+    >
+      <div class="w-[92%] mx-auto">
+        <div
+          class="w-full h-full md:h-[500px] flex flex-col items-center justify-center md:flex-row"
+        >
+          <div class="md:w-1/2 relative h-full">
+            <div
+              class="absolute flex flex-col justify-center w-full h-full overflow-hidden px-14 md:px-5 lg:px-14 bg-tint bg-opacity-80"
+            >
+              <h1
+                class="text-3xl font-semibold text-white lg:text-5xl font-poppins"
+              >
+                Building stellar websites for early startups
+              </h1>
+              <p class="mt-6 text-base font-normal text-white font-poppins">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua ut
+                enim.
+              </p>
+            </div>
+            <img
+              src="src/assets/contact.png"
+              class="w-full h-full"
+              alt="contact"
+            />
+          </div>
+
+          <div
+            class="md:w-1/2 h-full text-white bg-tint flex justify-center items-center"
+          >
+            <div class="w-[70%] mx-auto flex flex-col py-8">
+              <h1 class="text-4xl font-medium text-white font-poppins">
+                Send inquiry
+              </h1>
+              <p class="pt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore.
+              </p>
+              <input
+                type="text"
+                class="mt-4 px-4 py-3 rounded text-black"
+                placeholder="Your Name"
+                required
+              />
+              <input
+                type="text"
+                class="mt-4 px-4 py-3 rounded text-black"
+                placeholder="Email"
+                required
+              />
+              <input
+                type="text"
+                class="mt-4 px-4 py-3 rounded text-black"
+                placeholder="Paste your Figma design URL"
+                required
+              />
+              <button
+                type="submit"
+                class="w-full px-4 py-3 text-tint bg-yellow rounded-full mt-4"
+              >
+                Send an Inquiry
+              </button>
+              <p
+                class="text-lg text-white font-poppins font-light pt-4 text-center flex justify-center"
+              >
+                <span class="mr-3">Get in touch with us</span>
+                <svg
+                  class="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  ></path>
+                </svg>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our blog -->
+    <section class="min-h-[600px] w-full py-12">
+      <div class="max-w-[92%] mx-auto">
+        <h1 class="text-5xl font-poppins font-semibold">Our blog</h1>
+        <div
+          class="grid grid-cols-1 grid-rows-3 md:grid-cols-3 md:grid-rows-1 gap-4 pt-16"
+        >
+          <div class="w-full h-full">
+            <div>
+              <img
+                src="src/assets/blog1.png"
+                class="w-full h-full"
+                alt="blog1"
+              />
+
+              <p class="text-black text-xs font-poppins font-normal pt-10">
+                19 Jan 2022
+              </p>
+              <h1 class="text-2xl text-black font-poppins font-medium pt-4">
+                How one Webflow user grew his single person consultancy from
+                $0-100K in 14 months.
+              </h1>
+              <h1
+                class="text-base text-slate-500 font-poppins font-normal pt-4"
+              >
+                See how pivoting to Webflow changed one person’s sales strategy
+                and allowed him to attract.
+              </h1>
+              <button class="flex text-base font-poppins font-normal mt-8">
+                <span class="mr-3">Read more</span>
+                <svg
+                  class="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="w-full h-full">
+            <div>
+              <img
+                src="src/assets/blog2.png"
+                class="w-full h-full"
+                alt="blog1"
+              />
+
+              <p class="text-black text-xs font-poppins font-normal pt-10">
+                19 Jan 2022
+              </p>
+              <h1 class="text-2xl text-black font-poppins font-medium pt-4">
+                How one Webflow user grew his single person consultancy from
+                $0-100K in 14 months.
+              </h1>
+              <h1
+                class="text-base text-slate-500 font-poppins font-normal pt-4"
+              >
+                See how pivoting to Webflow changed one person’s sales strategy
+                and allowed him to attract.
+              </h1>
+              <button class="flex text-base font-poppins font-normal mt-8">
+                <span class="mr-3">Read more</span>
+                <svg
+                  class="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="w-full h-full">
+            <div>
+              <img
+                src="src/assets/blog3.png"
+                class="w-full h-full"
+                alt="blog1"
+              />
+
+              <p class="text-black text-xs font-poppins font-normal pt-10">
+                19 Jan 2022
+              </p>
+              <h1 class="text-2xl text-black font-poppins font-medium pt-4">
+                How one Webflow user grew his single person consultancy from
+                $0-100K in 14 months.
+              </h1>
+              <h1
+                class="text-base text-slate-500 font-poppins font-normal pt-4"
+              >
+                See how pivoting to Webflow changed one person’s sales strategy
+                and allowed him to attract.
+              </h1>
+              <button class="flex text-base font-poppins font-normal mt-8">
+                <span class="mr-3">Read more</span>
+                <svg
+                  class="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-tint min-h-[500px] w-full flex justify-center items-center">
+
+      <div class="w-[92%] flex flex-col justify-evenly md:flex-row">
+
+        <div>
+          <img src="src/assets/logo.svg" class="w-40 h-10" alt="logo">
+          <p class="text-base font-poppins font-medium text-white pt-5 w-[70%]">We are always open to discuss your project and improve your online presence.</p>
+        </div>
+        <div class="w-[50%] mt-10 md:mt-0">
+          <h1 class="text-5xl font-poppins font-semibold text-white">Lets Talk!</h1>
+          <p class="text-base font-poppins font-normal text-white pt-4 w-[80%]">We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
+          <div class="flex space-x-4 pt-7">
+            <div>
+              <img src="src/assets/fb.png" alt="fb">
+            </div>
+            <div>
+              <img src="src/assets/instagram.png" alt="instagram">
+            </div>
+            <div>
+              <img src="src/assets/twitter.png" alt="twitter">
+            </div>
+            <div>
+              <img src="src/assets/linkedin.png" alt="linkedin">
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </footer>
+  </body>
+  <script src="public/index.js"></script>
+</html>
